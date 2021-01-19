@@ -1,0 +1,12 @@
+---
+layout: "default"
+---
+
+# File "rsync2indoglobal.sh"
+
+* [Download](../script/rsync2indoglobal.sh)
+
+```
+(> ../script/rsync2indoglobal.sh <)
+```
+

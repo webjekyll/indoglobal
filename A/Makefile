@@ -1,0 +1,20 @@
+# START Tue 19 Jan 2021 17:49:32 WIB
+
+# Copyright (C) 2021-2021 Rahmat M. Samik-Ibrahim
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This Makefile is free script/software.
+# This Makefile is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty
+# of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+all: a01.md a02.md a03.md
+
+a01.md: a01.pmd Makefile
+	python ../script/includeScript.py < $< > $@
+
+a02.md: a02.pmd ../script/includeScript.py
+	python ../script/includeScript.py < $< > $@
+
+a03.md: a03.pmd ../script/rsync2indoglobal.sh
+	python ../script/includeScript.py < $< > $@
+
