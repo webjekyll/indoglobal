@@ -1,0 +1,14 @@
+title:            "indoglobal.vlsm.org"
+version:          "001---19-Jan-2021"
+copyright:        "2021-2021"
+description: >- 
+  This is indoglobal.vlsm.org!
+baseurl: ""       # e.g. /blog
+url: ""           # e.g. http://example.com
+urlweb:           "https://indoglobal.vlsm.org/"
+urlgithub:        "https://github.com/webjekyll/indoglobal/"
+urlcontact:       "https://rahmatm.samik-ibrahim.vlsm.org/2021/01/how-to-contact-rahmat-m-samik-ibrahim.html"
+author:           "Cecak Bin Kadal"
+keywords:         "indoglobal, jekyll, testing"
+google_analytics: "UA-89852122-6"
+
