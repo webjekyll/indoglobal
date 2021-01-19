@@ -3,8 +3,6 @@ version:          "005---19-Jan-2021"
 copyright:        "2021-2021"
 description: >- 
   This is indoglobal.vlsm.org!
-baseurl: ""       # e.g. /blog
-url: ""           # e.g. http://example.com
 urlweb:           "https://indoglobal.vlsm.org/"
 urlgithub:        "https://github.com/webjekyll/indoglobal/"
 urlcontact:       "https://rahmatm.samik-ibrahim.vlsm.org/2021/01/how-to-contact-rahmat-m-samik-ibrahim.html"
