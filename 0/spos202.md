@@ -1,7 +1,6 @@
 ---
 layout: "default"
 ---
-# x.vlsm.org
 
 <ul>
   <li>HTML5/CSS3/jekyll</li>
