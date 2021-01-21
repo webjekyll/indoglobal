@@ -18,3 +18,4 @@ a02.md: a02.pmd ../script/includeScript.py
 a03.md: a03.pmd ../script/rsync2indoglobal.sh
 	python ../script/includeScript.py < $< > $@
 
+

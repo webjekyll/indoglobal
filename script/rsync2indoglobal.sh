@@ -26,3 +26,4 @@ $RSYNC $JEKYLLsite $SSHakun:$PUBLIChtml
 
 exit
 
+
