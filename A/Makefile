@@ -7,7 +7,7 @@
 # but WITHOUT ANY WARRANTY; without even the implied warranty
 # of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-all: a01.md a02.md a03.md
+all: a01.md a02.md a03.md a04.md
 
 a01.md: a01.pmd Makefile
 	python ../script/includeScript.py < $< > $@
@@ -16,6 +16,9 @@ a02.md: a02.pmd ../script/includeScript.py
 	python ../script/includeScript.py < $< > $@
 
 a03.md: a03.pmd ../script/rsync2indoglobal.sh
+	python ../script/includeScript.py < $< > $@
+
+a04.md: a04.pmd ../_config.yml
 	python ../script/includeScript.py < $< > $@
 
 
